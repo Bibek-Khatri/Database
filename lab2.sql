@@ -32,7 +32,7 @@ select * from employee;
 
 
 #4. Update the gender of an employee whose #EmployeeID is 003.
-upadte employee
+update employee
 set Gender = 'M'
 where EmployeeID = '003';
 
@@ -66,3 +66,12 @@ select DepartmentName, Min(Salary) as Minsalary
 from employee Group By DepartmentName;
 #10. List the employee who act as manager.
 select  *from employee ;
+
+Update employee SET FirstName="Sujit" WHERE EmployeeID = 001;
+
+
+
+
+
+
+
